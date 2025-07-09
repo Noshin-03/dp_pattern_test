@@ -27,7 +27,7 @@ public class Course implements LearningComponent {
 
     @Override
     public void printStructure(String indent) {
-        System.out.println("Course: " + name);
+        System.out.println("Course:  " + name);
         for (LearningComponent component : components) {
             component.printStructure("\t");
         }

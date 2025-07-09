@@ -1,6 +1,6 @@
 package bridge;
 
-public class BridgeDemo {
+public class BridgeDemoFile {
     public static void main(String[] args) {
         Formatter pdf = new PDFFormatter();
         Formatter csv = new CSVFormatter();
@@ -11,5 +11,4 @@ public class BridgeDemo {
         salesReport.generate();
         customerReport.generate();
     }
-
 }

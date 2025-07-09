@@ -14,7 +14,7 @@ public class CompositeDemo {
         lesson2.addQuiz(q3);
 
         Project project = new Project("Project");
-        project.addLesson(lesson1); // reused
+        project.addLesson(lesson1);
         project.addLesson(lesson2);
 
         Course course = new Course("Java Course");

@@ -23,4 +23,5 @@ public class Quiz implements LearningComponent {
     public void printStructure(String indent) {
         System.out.println(indent + "\t" + name + " (" + duration + " min)");
     }
+
 }

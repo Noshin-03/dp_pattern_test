@@ -32,4 +32,5 @@ public class Lesson implements LearningComponent {
             quiz.printStructure(indent + "\t");
         }
     }
+
 }

@@ -10,13 +10,13 @@ public class VolumeCalculatorVisitor implements Visitor {
 
     @Override
     public void visit(Triangle triangle) {
-        double volume = 0.5 * triangle.getBase() * triangle.getHeight() * 10; // Depth assumed as 10
+        double volume = 0.5 * triangle.getBase() * triangle.getHeight() * 10;
         System.out.println("Triangle volume: " + volume);
     }
 
     @Override
     public void visit(Rectangle rectangle) {
-        double volume = rectangle.getWidth() * rectangle.getHeight() * 10; // Depth assumed as 10
+        double volume = rectangle.getWidth() * rectangle.getHeight() * 10;
         System.out.println("Rectangle volume: " + volume);
     }
 }
